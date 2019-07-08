@@ -87,7 +87,7 @@ public abstract class Issue implements IIssue {
     }
 
     public String getDescription() {
-        return description;
+        return this.description;
     }
 
     public void setDescription(String description) {
